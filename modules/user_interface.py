@@ -50,4 +50,4 @@ class UserInterface:
                 elif Maze[y][x] == 'E':
                     pygame.draw.rect(self.surface, (255, 0, 0), (x * size_of_each_block, y * size_of_each_block, size_of_each_block, size_of_each_block))
                 elif Maze[y][x] == 'P':
-                    pygame.draw.rect(self.surface, (0, 0, 255), (x * size_of_each_block, y * size_of_each_block, size_of_each_block, size_of_each_block))
+                    pygame.draw.rect(self.surface, (0, 128, 0), (x * size_of_each_block, y * size_of_each_block, size_of_each_block, size_of_each_block))
