@@ -19,7 +19,6 @@ class UserInterface:
         size = (window_width, window_height)
         self.surface = pygame.display.set_mode(size)
 
-
         self.PathColor = (255, 255, 255)
         self.WallColor = (0, 0, 0)
 
